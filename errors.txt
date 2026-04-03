@@ -1,0 +1,10 @@
+﻿src/App.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/App.tsx(5,10): error TS1484: 'GridConfig' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/Grid.tsx(2,10): error TS1484: 'GridConfig' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/Grid.tsx(2,22): error TS1484: 'Position' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/hooks/useRLSimulator.ts(1,31): error TS6133: 'useRef' is declared but its value is never read.
+src/hooks/useRLSimulator.ts(2,10): error TS1484: 'GridConfig' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/hooks/useRLSimulator.ts(2,22): error TS1484: 'Position' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/hooks/useRLSimulator.ts(2,32): error TS1484: 'QTable' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/hooks/useRLSimulator.ts(2,40): error TS1484: 'Action' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/hooks/useRLSimulator.ts(2,57): error TS1484: 'AlgorithmType' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.

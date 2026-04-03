@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #020617; 
+    color: #e2e8f0; 
+    overflow: hidden;
+  }
+}
+
+.scale-in-center {
+  background-image: radial-gradient(circle, rgba(250,204,21,1) 0%, rgba(202,138,4,1) 100%);
+  animation: pulse-glow 2s infinite alternate;
+}
+
+@keyframes pulse-glow {
+  0% { transform: scale(1); box-shadow: 0 0 10px rgba(250,204,21,0.5); }
+  100% { transform: scale(1.05); box-shadow: 0 0 25px rgba(250,204,21,0.9); }
+}
+
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.6);
+}
